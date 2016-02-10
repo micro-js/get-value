@@ -1,0 +1,16 @@
+{
+  "name": "@f/get-value",
+  "description": "Retrieve the value of a form field",
+  "repository": "git://github.com/micro-js/get-value.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "hihat": "^2.6.4",
+    "tape": "^4.2.2"
+  }
+}
