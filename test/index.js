@@ -16,6 +16,7 @@ test('should work', function (t) {
   t.equal(getValue($('<input type="checkbox" checked />')), true)
   t.equal(getValue($('<input type="checkbox" checked value="micro" />')), 'micro')
   t.equal(getValue($('<input type="checkbox" value="micro" />')), false)
+  t.equal(getValue($('<input type="checkbox" value="" checked />')), true)
 
   t.end()
 })
